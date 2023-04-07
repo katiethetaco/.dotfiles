@@ -3,7 +3,7 @@
 #declare uname variable
 OS=$(uname)
 
-if[["$OS" != *"Linux"* ]]; then
+if [[ "$OS" != *"Linux"* ]]; then
 	echo "ERROR --> Incorrect OS!" >> linuxsetup.log
 	exit
 fi
